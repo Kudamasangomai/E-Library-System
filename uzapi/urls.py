@@ -3,7 +3,7 @@ from . import views
 
 urlpatterns = [  
 
-		path('',views.getroutes),
+		path('',views.getroutes,name="api"),
 		path('books/',views.getbooks),
 		path('author/',views.getauthor),
 		path('book/<str:pk>',views.getbook),
