@@ -15,7 +15,7 @@ pip install virtualenv
 
 # Then we create our virtual environment
 virtualenv envname
---> Activate the virtual environment :
+--> Activate the virtual environment:
 
 envname\scripts\activate
 --> Install the requirements :
