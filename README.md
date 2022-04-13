@@ -56,17 +56,17 @@ python manage.py runserver
 
 ### Functions or modules available:
 
-#members can search books by their title, author, subject category
+members can search books by their title, author, subject category
 
-# There is a  maximum limit (3) on how many books a member can borrow/issue
+There is a  maximum limit (3) on how many books a member can borrow/issue
 
-# There are maximum limit (14) on how many days a member can keep a book.
+there are maximum limit (14) on how many days a member can keep a book.
 
-# Members can reserve books that are not currently available then get notification via email upon return of the book
+Members can reserve books that are not currently available then get notification via email upon return of the book
 
-# send an email on details of the book a member has borroed
+send an email on details of the book a member has borroed
 
-# forgot password function is available
+forgot password function is available
 
 
 
