@@ -54,6 +54,6 @@ python manage.py runserver
 
 #
 
-### App Preview :
+### Functions or modules available:
 
 
