@@ -10,6 +10,9 @@ def getroutes(request):
 	routes =[
 
 	'GET/API',
+	'uzapi/books/',
+	'uzapi/author/',
+	'uzapi/category/',
 
 	]
 	return Response(routes)

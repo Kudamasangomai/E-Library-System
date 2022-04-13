@@ -10,4 +10,5 @@ urlpatterns = [
 		path('category/',views.getcategory)
 
 
+
 ]

@@ -58,6 +58,8 @@ python manage.py runserver
 
 ### Functions or modules available:
 
+has an api created using DRF
+
 members can search books by their title, author, subject category
 
 There is a  maximum limit (3) on how many books a member can borrow/issue
