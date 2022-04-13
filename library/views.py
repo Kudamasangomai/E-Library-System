@@ -382,14 +382,15 @@ def export_pdf(request):
 	#textob.setTextOrigin(inch,inch)
 	textob.setFont("Helvetica",14)
 	objbooks = books.objects.all()
-	lines = []
+	row = []
 	for objb in objbooks:
-		lines.append(objb.title)
-		lines.append(objb.quantity)	
+		row.append(objb.title)
+		row.append(objb.category.category_name)
+		
 
 
 
-	for line in lines:
+	for line in row:
 		textob.textLine(line)
 	
 	c.drawText(textob)
