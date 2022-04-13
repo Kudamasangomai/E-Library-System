@@ -169,5 +169,5 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'kudam775@gmail.com'
-EMAIL_HOST_PASSWORD = 'M@$@NGOMAI'
+EMAIL_HOST_PASSWORD = ''
 DEFAULT_FROM_EMAIL = 'kudam775@gmail.com'
