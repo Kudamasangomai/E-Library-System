@@ -365,11 +365,11 @@ def export_csv(request):
 	response = HttpResponse(content_type='text/csv')
 	response['Content-Disposition']=  'attachment; filename=librarybooks.csv'
 	writer =csv.writer(response)
-	writer.writerow(['title','category'])
+	writer.writerow(['title','category','author','description'])
 	objbooks = books.objects.all()
 
 	for objb in objbooks:
-		writer.writerow([objb.title,objb.category]),
+		writer.writerow([objb.title,objb.category,obj.author,obj.description]),
 	return response
 
 
