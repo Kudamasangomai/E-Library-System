@@ -31,7 +31,10 @@ def profile(request):
 	"X-RapidAPI-Key": "ab350e22f1msh39a60467ebfe5d6p144a63jsn2ea18f647e08"
 	}
 	response = requests.request("POST", url, headers=headers, params=querystring)
-	print(response.text)
+	q = response.json()
+	#print(response.text)
+	print('==========================')
+	print(q)
 	return render(request,'users/profile.html',{'response':response})
 
 
