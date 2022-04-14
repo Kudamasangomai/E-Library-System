@@ -1,7 +1,10 @@
 <div align="center">
 
 
-# Django App Library System
+# E- Library System
+  
+ An online library management system using Django.
+
 </div>
 
 ### Cloning the repository
