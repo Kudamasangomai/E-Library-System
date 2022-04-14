@@ -35,7 +35,15 @@ def profile(request):
 	#print(response.text)
 	print('==========================')
 	print(q)
-	return render(request,'users/profile.html',{'response':response})
+
+	return render(request,'users/profile.html',{
+
+		'response':response
+		'qoute' :q['qoute'],
+		'author':q['author']
+
+
+		})
 
 
 
