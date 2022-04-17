@@ -63,6 +63,8 @@ python manage.py runserver
 
 has an api created using DRF
 
+random api genrated qoute
+
 members can search books by their title, author, subject category
 
 There is a  maximum limit (3) on how many books a member can borrow/issue
