@@ -63,7 +63,7 @@ python manage.py runserver
 
 has an api created using DRF
 
-random api genrated qoute
+random api generated qoute
 
 members can search books by their title, author, subject category
 
