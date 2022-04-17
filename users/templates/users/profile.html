@@ -47,12 +47,14 @@
   </div>
 
    <div class="col">
-        <h3><u>Account Status</u></h3>
+        <h3><u>Api quotes</u></h3>
 
 
 {% for q in qoute %}
 
-{{ qoute }}
+{{ q.quote }}<br/>
+<b>
+ ~ {{ q.author }} ~</b>
 {% endfor %}
 
 

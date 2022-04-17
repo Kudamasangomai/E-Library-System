@@ -21,7 +21,7 @@ import requests
 
 
 # Create your views here.
-
+@login_required
 def profile(request):	
 	
 	url = "https://andruxnet-random-famous-quotes.p.rapidapi.com/"
@@ -32,15 +32,12 @@ def profile(request):
 	}
 	response = requests.request("POST", url, headers=headers, params=querystring)
 	q = response.json()
-	#print(response.text)
-	print('==========================')
-	print(q)
 
 	return render(request,'users/profile.html',{
 
-		'response':response
-		'qoute' :q['qoute'],
-		'author':q['author']
+		'response':response,
+		'qoute' :q
+		#'author':q['author']
 
 
 		})
