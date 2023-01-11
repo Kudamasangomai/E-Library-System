@@ -1,7 +1,10 @@
-<div align="center">
+<div align="left">
 
 
-# Django App Library System
+# E- Library System
+  
+ An online library management system using Django.
+
 </div>
 
 ### Cloning the repository
@@ -50,15 +53,17 @@ python manage.py runserver
 
 ```
 
-> ⚠ Then, the development server will be started at http://127.0.0.1:8000/
+>Then, the development server will be started at http://127.0.0.1:8000/
 
-###Databse was using Postgresql
+### Database was using Postgresql
 
 #
 
 ### Functions or modules available:
 
 has an api created using DRF
+
+random api generated qoute
 
 members can search books by their title, author, subject category
 
