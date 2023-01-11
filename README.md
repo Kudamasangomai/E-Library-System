@@ -77,5 +77,12 @@ send an email on details of the book a member has borroed
 
 forgot password function is available
 
+### Screen Shots 
+![book](https://user-images.githubusercontent.com/25201331/211887161-1c95546f-0dc9-4f2d-ac15-b0455a4617db.JPG)
+
+![expired](https://user-images.githubusercontent.com/25201331/211887445-2ea3aa3b-6ebf-4a6a-8132-cc41bb85b0d3.JPG)
+
+![reserved](https://user-images.githubusercontent.com/25201331/211887705-e6a18c07-97d1-42e2-bccd-d5d968b3538c.JPG)
+
 
 
