@@ -127,7 +127,7 @@ class BookDetailView(LoginRequiredMixin,DetailView):
 		context['related'] = books.objects.filter(category = category.category)
 		return context
 
-class deleteBookview(PermissionRequiredMixin, LoginRequiredMixin,DeleteView):
+class deleteBookview(PermissionRequiredMixin, LoginRequiredMixin, SuccessMessageMixin,DeleteView):
 	permission_required = 'book.delete_books'
 	model =books	
 	success_url= reverse_lazy('books')

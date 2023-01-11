@@ -24,19 +24,19 @@ import requests
 @login_required
 def profile(request):	
 	
-	url = "https://andruxnet-random-famous-quotes.p.rapidapi.com/"
-	querystring = {"cat":"famous","count":"1"}
-	headers = {
-	"X-RapidAPI-Host": "andruxnet-random-famous-quotes.p.rapidapi.com",
-	"X-RapidAPI-Key": "ab350e22f1msh39a60467ebfe5d6p144a63jsn2ea18f647e08"
-	}
-	response = requests.request("POST", url, headers=headers, params=querystring)
-	q = response.json()
+	# url = "https://andruxnet-random-famous-quotes.p.rapidapi.com/"
+	# querystring = {"cat":"famous","count":"1"}
+	# headers = {
+	# "X-RapidAPI-Host": "andruxnet-random-famous-quotes.p.rapidapi.com",
+	# "X-RapidAPI-Key": "key"
+	# }
+	# response = requests.request("POST", url, headers=headers, params=querystring)
+	# q = response.json()
 
 	return render(request,'users/profile.html',{
 
-		'response':response,
-		'qoute' :q
+		# 'response':response,
+		# 'qoute' :q
 		#'author':q['author']
 
 
@@ -70,9 +70,7 @@ def profile_edit(request,**kwargs):
         'profile_form':profile_form 
     }
 		return render(request,'users/profile_edit.html',context)
-'''@login_required
-def users(request):
-	return render(request,'users/users.html')'''
+
 
 class userslistview(PermissionRequiredMixin, LoginRequiredMixin,ListView):
 	raise_exception =  False
