@@ -30,6 +30,7 @@ def profile(request):
 	# "X-RapidAPI-Host": "andruxnet-random-famous-quotes.p.rapidapi.com",
 	# "X-RapidAPI-Key": "key"
 	# }
+	
 	# response = requests.request("POST", url, headers=headers, params=querystring)
 	# q = response.json()
 
